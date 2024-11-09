@@ -42,8 +42,8 @@ build() {
     cmake -B build -S "$srcdir/${pkgbase}" \
         -DCMAKE_INSTALL_PREFIX=/ \
         -DCMAKE_BUILD_TYPE='Release' \
-        -DBUILD_CODE_GEN=ON \
-        -DBUILD_DOXYGEN_DOC=ON
+        -DSDBUSCPP_BUILD_CODEGEN=ON \
+        -DSDBUSCPP_BUILD_DOXYGEN_DOCS=ON
 
     cmake --build build
     cmake --build build --target doc
