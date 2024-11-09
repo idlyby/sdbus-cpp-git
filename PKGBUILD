@@ -1,4 +1,5 @@
-# Maintainer: Cirk2 <privat+aur at cirk2 dot de> 
+# Maintainer: Edward Davis <idlyby@proton.me>
+# Contributor: Cirk2 <privat+aur at cirk2 dot de> 
 
 pkgbase=sdbus-cpp-git
 _pkgbase=sdbus-cpp
